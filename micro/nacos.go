@@ -3,10 +3,6 @@ package micro
 import (
 	"errors"
 	"fmt"
-	"strconv"
-	"sync/atomic"
-	"time"
-
 	"github.com/nacos-group/nacos-sdk-go/clients"
 	"github.com/nacos-group/nacos-sdk-go/clients/naming_client"
 	"github.com/nacos-group/nacos-sdk-go/common/constant"
@@ -14,6 +10,9 @@ import (
 	"github.com/nacos-group/nacos-sdk-go/vo"
 	"go.uber.org/zap"
 	"google.golang.org/grpc"
+	"strconv"
+	"sync/atomic"
+	"time"
 )
 
 var (

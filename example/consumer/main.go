@@ -2,8 +2,8 @@ package main
 
 import (
 	"fmt"
-	"github.com/jointownchain/micro/example/proto/micro-service/TestService"
-	"github.com/jointownchain/micro/micro"
+	"github.com/Cicyer/micro/example/proto/micro-service/TestService"
+	"github.com/Cicyer/micro/micro"
 	"github.com/nacos-group/nacos-sdk-go/common/constant"
 	"time"
 )
