@@ -121,7 +121,7 @@ func main() {
 			RetryDuration:        time.Second * 10,
 			CircuitDuration:      time.Second * 15,
 			CircuitBaseCount:     5,
-		})
+		}, nil)
 	if err != nil {
 		panic(err.Error())
 	}
